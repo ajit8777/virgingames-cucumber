@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Virgingames Report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Jan 28, 2024 12:24:45 am</span></a>
+<a href="#"><span class="badge badge-primary">Jan 28, 2024 02:29:48 pm</span></a>
 </li>
 </ul>
 </div>
@@ -66,13 +66,13 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Jan 28, 2024 12:24:45 am</h3>
+<h3>Jan 28, 2024 02:29:48 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Jan 28, 2024 12:24:55 am</h3>
+<h3>Jan 28, 2024 02:30:20 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -162,7 +162,7 @@
 </div></div>
 <script>
 var timeline = {
-"Join Now feature functionality":4.387,"Online Slots page features":4.25
+"Join Now feature functionality":5.453,"Online Slots page features":25.45
 };
 </script>
 <div class="row">
@@ -237,7 +237,7 @@ eventsCount: 5,
           <div class="test-detail">
             <p class="name">Join Now feature functionality</p>
             <p class="text-sm">
-              <span>00:24:46</span> / <span>00:00:04:387</span>
+              <span>14:29:49</span> / <span>00:00:05:453</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -246,9 +246,9 @@ eventsCount: 5,
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">Join Now feature functionality</h5>
-<span class='badge badge-success'>01.28.2024 00:24:46</span>
-<span class='badge badge-danger'>01.28.2024 00:24:51</span>
-<span class='badge badge-default'>00:00:04:387</span>
+<span class='badge badge-success'>01.28.2024 14:29:49</span>
+<span class='badge badge-danger'>01.28.2024 14:29:54</span>
+<span class='badge badge-default'>00:00:05:453</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -298,7 +298,7 @@ eventsCount: 5,
           <div class="test-detail">
             <p class="name">Online Slots page features</p>
             <p class="text-sm">
-              <span>00:24:51</span> / <span>00:00:04:250</span>
+              <span>14:29:54</span> / <span>00:00:25:450</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -307,9 +307,9 @@ eventsCount: 5,
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">Online Slots page features</h5>
-<span class='badge badge-success'>01.28.2024 00:24:51</span>
-<span class='badge badge-danger'>01.28.2024 00:24:55</span>
-<span class='badge badge-default'>00:00:04:250</span>
+<span class='badge badge-success'>01.28.2024 14:29:54</span>
+<span class='badge badge-danger'>01.28.2024 14:30:20</span>
+<span class='badge badge-default'>00:00:25:450</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -344,21 +344,44 @@ eventsCount: 5,
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="com.virgingames.steps.HomePageSteps.iClickOnOnlineSlotsTab()">
-                <span>When I click on Online Slots tab</span>
+              <div class="step pass-bg" title="com.virgingames.steps.HomePageSteps.iClickOnOnlineSlotsTab(java.lang.String)">
+                <span>When I click on 'Slingo' tab</span>
       <div>
       </div>
               </div>
               <div class="step fail-bg" title="com.virgingames.steps.OnlineSlotsSteps.iVerifyTextPlayOnlineSlotsAtVirginGames(java.lang.String)">
                 <span>Then I verify text 'Play Online Slots at Virgin Games'</span>
       <div>
-        <textarea disabled class="code-block">java.lang.AssertionError: expected [Play Online Slots at Virgin Games] but found [*Click for full Rules. New members only, must opt in. Min £10 deposit & wager. 30 day expiry from deposit. 18+. Free Spins: on Double Bubble. 1p coin size, max lines. Game availability & restrictions apply.]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[normalize-space()='Play Online Slots at Virgin Games']"}
+  (Session info: chrome=121.0.6167.85)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c1d58f4e98111b3672784930ed88d1e9, findElement {using=xpath, value=//h1[normalize-space()='Play Online Slots at Virgin Games']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.85, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\appat\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55605}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55605/devtoo..., se:cdpVersion: 121.0.6167.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c1d58f4e98111b3672784930ed88d1e9
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy29.getText(Unknown Source)
+	at com.virgingames.utility.Utility.getTextFromElement(Utility.java:60)
+	at com.virgingames.pages.OnlineSlotsPage.getTextOfPlayOnlineSlotsAtVirginGames(OnlineSlotsPage.java:15)
 	at com.virgingames.steps.OnlineSlotsSteps.iVerifyTextPlayOnlineSlotsAtVirginGames(OnlineSlotsSteps.java:10)
 	at ✽.I verify text 'Play Online Slots at Virgin Games'(file:///C:/Users/appat/IdeaProjects/virgingames-cucumber/src/test/resources/features/onlineslots.feature:10)
 </textarea>
@@ -404,12 +427,12 @@ eventsCount: 5,
 <span class="meta">
 <span class='badge log badge-danger'>1</span>
 </span>
-<p class="name">java.lang.AssertionError</p>
+<p class="name">org.openqa.selenium.NoSuchElementException</p>
 <p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>java.lang.AssertionError</h4>
+<h4>org.openqa.selenium.NoSuchElementException</h4>
 <span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
@@ -423,7 +446,7 @@ eventsCount: 5,
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>00:24:54 am</td>
+<td>14:29:59 pm</td>
 <td>
 <a href="#" class="linked" test-id='9' id='16'>Then I verify text 'Play Online Slots at Virgin Games'</a>
 <div class="">

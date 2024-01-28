@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 
+import java.util.List;
+
 public class HomePage extends Utility {
 
     @CacheLookup
@@ -19,24 +21,35 @@ public class HomePage extends Utility {
     @FindBy(linkText = "Online Slots")
     WebElement onlineSlotsTab;
 
+    @CacheLookup
+    @FindBy(xpath = "//li[@class='StyledNavigationMenuListItem-sc-v46bks-2 hRASAg']/a/span")
+    List<WebElement> topMenu;
 
 
-
-
-    public String getTitle(){
+    public String getTitle() {
         return driver.getTitle();
     }
 
-    public void clickOnNecessaryCookiesOnly(){
+    public void clickOnNecessaryCookiesOnly() {
         clickOnElement(cookies);
     }
 
-    public void clickOnJoinNowTab(){
+    public void clickOnJoinNowTab() {
         clickOnElement(joinNowTab);
     }
 
-    public void clickOnOnlineSlotsTab(){
+    public void clickOnOnlineSlotsTab() {
         clickOnElement(onlineSlotsTab);
+    }
+
+    public void selectTopMenu(String tab) {
+        for (WebElement menu : topMenu) {
+            if (menu.getText().equals(tab)) {
+                clickOnElement(menu);
+                break;
+            }
+
+        }
     }
 
 

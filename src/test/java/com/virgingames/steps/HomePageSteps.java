@@ -28,8 +28,8 @@ public class HomePageSteps {
         new HomePage().clickOnJoinNowTab();
     }
 
-    @When("I click on Online Slots tab")
-    public void iClickOnOnlineSlotsTab() {
-        new HomePage().clickOnOnlineSlotsTab();
+    @When("I click on {string} tab")
+    public void iClickOnOnlineSlotsTab(String menu) {
+        new HomePage().selectTopMenu(menu);
     }
 }
